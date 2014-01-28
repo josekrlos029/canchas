@@ -1,0 +1,115 @@
+/* 
+    Document   : general
+    Created on : 19/01/2014, 11:00:56 AM
+    Author     : andy henry
+    Description:
+        Purpose of the stylesheet follows.
+*/
+root { 
+    display: block;
+}
+*{
+margin:0;
+padding: 0;
+}
+body{
+  height: 100%;
+  font-size: 1em;
+  color:#000000;
+  background:#dbdbdb;
+}
+.cabecera{ 
+    padding-top:0.8em;
+    padding-bottom:0.8em;
+    padding-left:0.5em;
+    background-color:#ff004e;
+    border: 0;
+    font-family: "Arial";
+    font-weight: bold;
+    font-size: 0.9em;
+    text-shadow: 1px 1px #000000;
+    box-shadow: 0px 1px 1px #000000;
+    color:#FFFFFF;
+}
+
+.img-perfil{
+   float: left;
+   padding-right:1em; 
+}
+.box-noticias{
+    float: left;
+    width: 100%;
+    height:6em; 
+    padding-top:10px; 
+    padding-bottom:10px; 
+    margin: auto;  
+    text-align: left;
+}
+.resultado{
+    margin:1.0em auto;  
+    text-align: center;
+}
+#claro{
+  background-color:#dbdbdb;   
+}
+#oscuro{
+  background-color:#d0d0d0;  
+}
+.noticia{
+ margin-right:1.0em;    
+ margin-left: 4.0em;   
+}
+
+
+num-big{
+    color:#757575;
+    font-family: "Arial";
+    font-weight: bold;
+    font-size:1.4em; 
+}
+text-big{
+    color:#757575;
+    font-family: "Arial";
+    font-weight: bold;
+    font-size:1.3em; 
+}
+name{
+    color:#ff004e;
+    font-family: "Arial";
+    font-weight: bold;
+    font-size:0.7em; 
+}
+name-disable{
+    color:#757575;
+    font-family: "Arial";
+    font-weight: bold;
+    font-size:0.7em; 
+}
+cancha{
+   color:#008bfe;
+    font-family: "Arial";
+    font-weight: bold;
+    font-size:0.7em;  
+}
+texto{
+    color:#000000;
+    font-family: "Arial";
+    font-size:0.7em;  
+}
+
+#footer{
+    background: #181818;
+}
+
+#footer a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: "Arial";
+    font-weight: bold;
+    font-size:0.7em;  
+    
+}
+
+#footer li{
+    border-left:1px solid #000000; 
+}
