@@ -113,3 +113,7 @@ texto{
 #footer li{
     border-left:1px solid #000000; 
 }
+
+.ui-input-text, .ui-input-search{
+    border: 0;
+}

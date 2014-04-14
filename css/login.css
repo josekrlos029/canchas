@@ -63,3 +63,7 @@ background-color: #d00040;
 .button:active{ 
 top: 1px;
 }
+
+.ui-input-text, .ui-input-search{
+    border: none;
+}
