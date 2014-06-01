@@ -133,7 +133,7 @@ function cargarDatos() {
     });
 
     var idFace = localStorage.getItem('idPersona');
-    var url = "/birrias/jugador/cargarHistoria";
+    var url = "/birrias/jugador/cargarDatos";
     $.ajax({
         type: "POST",
         url: url,
@@ -143,7 +143,7 @@ function cargarDatos() {
 
                 var json = convertirJson(msg);
                 $("#nombre").html("<p>"+json.nombres+" "+json.apellidos+"</p>");
-                
+                 $.mobile.loading( "hide" );
             });
 
 } //FIN CARGARDATOS()

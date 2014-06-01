@@ -18,6 +18,10 @@ body{
   color:#000000;
   background:#dbdbdb;
 }
+
+#home{
+    background:#dbdbdb;
+}
 .cabecera{ 
     padding-top:0.8em;
     padding-bottom:0.8em;
@@ -99,6 +103,7 @@ texto{
 
 #footer{
     background: #181818;
+    border-left:1px solid #000000; 
 }
 
 #footer a{
@@ -107,11 +112,13 @@ texto{
     font-family: "Arial";
     font-weight: bold;
     font-size:0.7em;  
-    
+    background: #181818;
+    border-left:1px solid #000000; 
 }
 
 #footer li{
     border-left:1px solid #000000; 
+    background: #181818;
 }
 
 .ui-input-text, .ui-input-search{

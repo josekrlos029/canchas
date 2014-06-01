@@ -74,6 +74,14 @@ num-big2{
    margin-left:24.5em; 
    text-align: center;    
 }
+
+.cabecera-perfil{
+   max-width: 1280px; 
+   height: 200px; 
+   background:#dbdbdb;
+   background: url(../img/bg-profile.png);
+}
+
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 979px) and (max-width: 1280px) { 
 .cabecera-perfil{
