@@ -1,0 +1,168 @@
+@charset "utf-8";
+
+body,html{
+text-align:center; 
+background: rgba(255,120,1,1);
+background: -moz-linear-gradient(top, rgba(255,120,1,1) 0%, rgba(255,120,1,1) 36%, rgba(226,65,70,1) 97%, rgba(226,65,70,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,120,1,1)), color-stop(36%, rgba(255,120,1,1)), color-stop(97%, rgba(226,65,70,1)), color-stop(100%, rgba(226,65,70,1)));
+background: -webkit-linear-gradient(top, rgba(255,120,1,1) 0%, rgba(255,120,1,1) 36%, rgba(226,65,70,1) 97%, rgba(226,65,70,1) 100%);
+background: -o-linear-gradient(top, rgba(255,120,1,1) 0%, rgba(255,120,1,1) 36%, rgba(226,65,70,1) 97%, rgba(226,65,70,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,120,1,1) 0%, rgba(255,120,1,1) 36%, rgba(226,65,70,1) 97%, rgba(226,65,70,1) 100%);
+background: linear-gradient(to bottom, rgba(255,120,1,1) 0%, rgba(255,120,1,1) 36%, rgba(226,65,70,1) 97%, rgba(226,65,70,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7801', endColorstr='#e24146', GradientType=0 );
+}
+
+
+#user{
+ background-color: #FFFFFF;
+ color:#a06d00;
+ font-family:Arial;
+}
+#pass{
+background-color: #FFFFFF;
+color:#a06d00;
+font-family:Arial;
+}
+
+input::-webkit-input-placeholder {
+ color:#a06d00;
+ font-size: 14px;
+}
+img, object, embed, video {
+	max-width: 100%;
+}
+
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+
+.fluid {
+	clear: both;
+	margin-left: 0;
+	width: 100%;
+	float: left;
+	display: block;
+}
+
+.fluidList {
+    list-style:none;
+    list-style-image:none;
+    margin:0;
+    padding:0;        
+}
+
+/* Mobile Layout: 480px and below. */
+  
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 86.45%;
+	padding-left: 2.275%;
+	padding-right: 2.275%;
+	clear: none;
+	float: none;
+}
+
+.zeroMargin_mobile {
+margin-left: 0;
+}
+.hide_mobile {
+display: none;
+}
+
+#logo{
+position: relative;
+ margin:0 auto 0 auto;
+ margin-top:15%;
+ width: 160px;
+ height: 160px;
+}
+#cont-cajasText{
+ position: relative;
+ margin-top:20%;    
+}
+#btn-ultimo{
+position: relative;
+margin-top:10%;   
+}
+
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+
+.gridContainer {
+	width: 60%;
+	padding-left: 1.1625%;
+	padding-right: 1.1625%;
+	clear: none;
+	float: none;
+	margin-left: auto;
+}
+
+.hide_tablet {
+display: none;
+}
+.zeroMargin_tablet {
+margin-left: 0;
+}
+
+#logo{
+position: relative;
+ margin:0 auto 0 auto;
+ margin-top:10%;
+ width: 170px;
+ height: 170px;
+}
+#cont-cajasText{
+ position: relative;
+ margin-top:30%;    
+}
+#btn-ultimo{
+position: relative;
+margin-top:30%;   
+}
+
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+
+.gridContainer {
+	width:40%;
+	max-width: 1232px;
+	padding-left: 0.75%;
+	padding-right: 0.75%;
+	margin: auto;
+	clear: none;
+	float: none;
+	margin-left: auto;
+
+}
+
+#logo{
+position: relative;
+ margin:0 auto 0 auto;
+ margin-top:5%;
+ width: 280px;
+ height: 280px;
+}
+#cont-cajasText{
+ position: relative;
+ margin-top:15%;    
+}
+#btn-ultimo{
+position: relative;
+margin-top:15%;   
+}
+
+.zeroMargin_desktop {
+margin-left: 0;
+}
+.hide_desktop {
+display: none;
+}
+}

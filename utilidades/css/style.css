@@ -1,0 +1,68 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11/07/2014, 02:37:19 PM
+    Author     : AndyBolaño
+*/
+@charset "utf-8";
+
+html,body{
+height: 100%;
+overflow-x: hidden;
+overflow-y: hidden;
+}
+.bgLogin{
+    height: 100%;
+    width: 100%;
+    background-image: url('../img/fondoLogin.png');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position: center;
+    background-attachment:fixed;
+}
+.box-text{
+ padding: 8px;
+ width: 70%;  
+ border-radius:3px;
+ margin-bottom:5px;
+border:none;
+padding-left: 20px;
+font-size: 14px;
+}
+.boton{
+  font-size: 14px;
+  padding: 8px;
+  text-align: center;
+  border-radius:3px;   
+  width: 80%; 
+  border:none;
+ 
+   font-family:Arial;
+   margin-bottom: 5px
+}
+
+.rojo{
+  background-color: #cb1f27;
+  color:#FFFFFF;
+}
+.rojo:active{
+   border-bottom: 0;
+}
+.azul{
+  background-color: #2aa7e1;
+  color:#FFFFFF;
+}
+.azul:active{
+   border-bottom: 0;
+}
+.azulDark{
+  background-color: #1d79a4;
+  color:#FFFFFF;
+}
+.azulDark:active{
+   border-bottom: 0;
+}
+
